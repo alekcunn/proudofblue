@@ -1,0 +1,16 @@
+{
+    "background_color": "blue",
+    "description": "We love you blue!",
+    "display": "fullscreen",
+    "icons": [
+      {
+        "src": "icon/icon.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      }
+    ],
+    "name": "Cat and Hooman",
+    "short_name": "Amore",
+    "start_url": "/index.html"
+  }
+  
