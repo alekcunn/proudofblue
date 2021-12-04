@@ -1,8 +1,8 @@
 var CACHE_NAME = 'pou-blue-cache-v1.2';
 var urlsToCache = [
-  'proudofblue/index.html',
-  'proudofblue/css/index.css',
-  'proudofblue/js/index.js'
+  'index.html',
+  'css/index.css',
+  'js/index.js'
 ];
 
 self.addEventListener('install', function(event) {
