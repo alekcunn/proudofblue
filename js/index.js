@@ -58,8 +58,16 @@ let rsns = [
     "Cat: I'm proud of you for owning who you are. You never deny anything about yourself.",
     "Cat: You are easy to get along with 😄",
     "Cat: Best fur brother ever",
-    "you clicked too many times, nothing to see here"
-    
+    "you clicked too many times, nothing to see here",
+    "Cat: Meow",
+    "Cat: MEOW!",
+    "Cat: MERRRRR",
+    "Cat: You gib food",
+    "Cat: I have fun playing VR with you....when we can 😂",
+    "Cat: You're a good friend",
+    "Cat: Love your smile",
+    "Cat: You're a good listener",
+    ""
 
 
 
@@ -77,9 +85,9 @@ function change() {
     if (rand = 12) {
         delay(3).then(() =>
             document.getElementById("rsn").animate([
-                { opacity: 1.0 },
-                { opacity: 0.4 },
-                { opacity: 1.0 }
+                0% { opacity: 1.0 },
+                50% { opacity: 0.4 },
+                100% { opacity: 1.0 }
             ])
         );
     }
